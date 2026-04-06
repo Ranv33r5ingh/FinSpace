@@ -1,4 +1,5 @@
 import { useStore } from '../../store/useStore';
+import img from '/favicon.png';
 import {
   LayoutDashboard, Receipt, Lightbulb, Sun, Moon,
   ChevronRight, TrendingUp, Shield, Eye,
@@ -31,7 +32,7 @@ export default function Sidebar({ collapsed, onToggle }) {
         style={{ borderColor: 'var(--border)' }}
       >
         <img
-          src="../../../public/favicon.png"
+          src={img}
           alt="FinSpace"
           className="w-7 h-7 object-contain rounded-md"
         />
